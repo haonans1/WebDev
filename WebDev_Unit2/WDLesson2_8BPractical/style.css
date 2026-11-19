@@ -7,14 +7,17 @@
   display: flex;
 }
 
-#Banner div{
-   flex:1;
+#Banner{
    font-size: 30pt;
 }
 
+#Banner div{
+   flex:1;
+}
+
 nav{
-   justify-content: center;
    height:50pt;
+   background-color:green;
    align-items:center;
 }
 
@@ -22,13 +25,23 @@ nav a{
    text-decoration:none;
    flex:1;
    color:white;
-   background-color:green;
    font-size: 20pt;
+}
+
+#body{
+   height:400px;
 }
 
 #links{
    flex-direction: column;
    flex:1;
+   box-shadow: 5px 5px black;
+}
+
+#links a{
+   text-decoration:none;
+   padding:10px;
+   color:black;
 }
 
 #main{
